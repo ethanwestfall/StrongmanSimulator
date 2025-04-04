@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles.css" />
+    <script type="module" src="script.js" defer></script>
+    <title>Methodology</title>
+  </head>
+  <body>
+    <header>
+      <nav id="nav">
+        <a href="../index.html" class="nav-item">Home</a>
+        <a href="../other-pages/feedback.html" class="nav-item">Feedback</a>
+        <a href="../other-pages/methodology.html" class="nav-item red-nav-link"
+          >Methodology</a
+        >
+        <a href="../other-pages/aboutme.html" class="nav-item">About Me</a>
+      </nav>
+    </header>
+    <h1>Methodology</h1>
+    <div class="info-div">
+    <section class="methodology">
+      <h2>Overall Philosophy</h2>
+      <p><span>Definition of "Peak":</span> The point(s) in time in an athlete's career when he performed 
+        his very best (i.e., won or placed well on events) at major competition(s).</p>
+      <p><span>Comparing Athletes:</span> Must be done on an event-by-event basis so that athletes perform 
+        better in competitions with events that suit their strengths. Some inconsistency is built in so that 
+        athletes perform at their best 5/8 of the time, at a level below their best 2/8 of the time, and at two 
+        levels below their best 1/8 of the time. This ensures, for example, that athletes who are really good 
+        at an event will never lose to athletes who are mid-level at the same event, but they may lose to athletes 
+        of a similar skill-level. Ties are broken by a randomly generated number.</p>
+      <p><span>The Impact of Eras:</span> Key assumption -- Athletes who were dominant in one era against the 
+      level of competition they faced would be similarly dominant in other eras. This may not be true for the 
+      "average" strongman in an era, but it's likely more true for the best of the best.</p>
+    </section>
+    <section class="methodology">
+      <h2>Athlete Ratings</h2>
+      <p>Number labels in the image correspond to items in the list below.</p>
+      <img src="../methodology-images/athlete-info-example.png" class="methodology-img"></img>
+      <ol id="athlete-ratings-explanation">
+        <li>
+          <p>Major competitions won, as well as other international competitions won 
+          (in the red box).</p>
+        </li>
+        <li>
+          <p><span>Peak Rating:</span> Each athlete is given a score of between 1 and 10 points for each 
+          event. This score directly correlates to the best the athlete has placed on 
+          each event at a major competition; for example, a 1st place 
+          max deadlift at the Arnold Strongman Classic would give the athlete 
+          a 10-point max deadlift. In rare situations where an athlete has won the same event 
+          three or more times at major competitions, 11 points is awarded.</p>
+          <p>Events are then grouped into categories (e.g., "pulling"), with the average 
+            of all events in the category representing the category score out of 10. See #4 below 
+          for a visual representation of these category averages.</p>
+          <p>The category averages are then combined to form a "Peak Rating" score. The Pulling, 
+            Pressing, Stone Lifting, and Moving categories are each weighted twice as 
+            heavily as the Squatting, Throwing, and Endurance categories.</p>
+        </li>
+        <li>
+          <p><span>Career Rating:</span> Each athlete receives a career rating based on how many competitions they won or 
+            did well at in their career. This metric could use some work, but, currently, points are awarded as follows:</p>
+            <ul>
+              <li>25 points for the 1st major competition win</li>
+              <li>10 points for each additional major win thereafter</li>
+              <li>5 points for each major competition 2nd place</li>
+              <li>2 points for each major competition 3rd place</li>
+              <li>0.2 points for each non-major international win</li>
+            </ul>
+        </li>
+        <li>
+          <p><span>Skills:</span> Category averages, as explained in #2.</p>
+        </li>
+      </ol>
+    </section>
+  </div>
+  </body>
+</html>
